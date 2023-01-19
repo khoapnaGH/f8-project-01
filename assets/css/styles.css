@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #0f1b4c;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Common */
+a {
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  min-width: 98px;
+  background: var(--primary-color);
+  border-radius: 8px;
+  padding: 18px 16px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.content {
+  width: 1110px;
+  max-width: calc(100vw - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* header */
+.header {
+  background: #e6f0ff;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding-top: 38px;
+}
+
+.navbar ul {
+  display: flex;
+  margin-left: 50px;
+}
+
+.navbar ul a {
+  padding: 8px 14px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #4f5361;
+}
+
+.navbar ul a:hover {
+  text-decoration: underline;
+}
+
+.actions {
+  margin-left: auto;
+}
+
+.navbar .action-link {
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--primary-color);
+}
+
+.navbar .action-btn {
+  padding: 13px 16px;
+  margin-left: 18px;
+}
