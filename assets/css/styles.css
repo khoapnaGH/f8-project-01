@@ -24,7 +24,7 @@ a {
   display: inline-block;
   min-width: 98px;
   background: var(--primary-color);
-  border-radius: 8px;
+  border-radius: 12px;
   padding: 18px 16px;
   color: #ffffff;
   font-weight: 500;
@@ -85,9 +85,9 @@ a {
 .navbar .action-btn {
   padding: 13px 16px;
   margin-left: 18px;
+  border-radius: 8px;
 }
 
-/* hero */
 .hero {
   padding-top: 130px;
 }
@@ -129,4 +129,112 @@ a {
   position: absolute;
   bottom: 0;
   right: calc((100vw - 1110px) / 2 - 100px);
+}
+
+/* Clients */
+
+.clients {
+  margin-top: 122px;
+}
+
+.clients .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients .desc {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.25;
+  color: #7d8589;
+}
+
+.clients .row-desc {
+  margin-top: 23px;
+}
+
+.clients .images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 96px;
+}
+
+/* Guides */
+.guides {
+  margin-top: 200px;
+}
+
+.guides .sub-title {
+  position: relative;
+  font-weight: 600;
+  font-size: 3.5rem;
+  line-height: 1;
+  text-align: center;
+  color: #000339;
+}
+
+.guides .sub-title::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 41px;
+  height: 4px;
+  background: #000339;
+  border-radius: 12px;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.guides .desc {
+  width: 459px;
+  margin: 20px auto 0;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.88;
+  text-align: center;
+  color: #5a6473;
+}
+
+.list-guides {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.guide-item {
+  margin: 0 70px;
+  text-align: center;
+}
+
+.guide-item .title {
+  margin-top: 26px;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 1.1;
+  text-align: center;
+  color: #3b3c45;
+}
+
+.guide-item .link {
+  margin-top: 10px;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #0689ff;
+}
+
+.guide-item .arrow {
+  margin-left: 4px;
+}
+
+.guide-cta {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.guide-cta .btn {
+  min-width: 170px;
 }
