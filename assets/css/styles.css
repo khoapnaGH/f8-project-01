@@ -499,3 +499,53 @@ a {
   font-size: 18px;
   color: #7b8087;
 }
+
+/* Subscription */
+.subscription {
+  margin-top: 51px;
+  padding-top: 39px;
+}
+
+.subscription .body {
+  display: flex;
+  position: relative;
+  align-items: center;
+  width: 100%;
+  height: 370px;
+  background: #063183;
+  border-radius: 20px;
+}
+
+.subscription .body .info {
+  padding: 0px 80px;
+  width: 671px;
+}
+
+.subscription .info .sub-title {
+  font-weight: 600;
+  font-size: 3.5rem;
+  line-height: 1;
+  color: #ffffff;
+}
+
+.subscription .info .desc {
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.88;
+  color: #ffffff;
+  opacity: 0.75;
+}
+
+.subscription .info .btn {
+  margin-top: 20px;
+  background-color: #fff;
+  min-width: 151px;
+  color: #002366;
+}
+
+.subscription .body .image {
+  position: absolute;
+  bottom: 0;
+  right: 221px;
+}
